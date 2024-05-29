@@ -1,0 +1,5 @@
+{
+    "PORT":6000,
+    "MONGOURI":"mongodb+srv://anantmanojmishra:kNp8tfu3NJ4SfBXp@backenddb.kuqejt8.mongodb.net/bookmyshowlocal?retryWrites=true&w=majority&appName=BackendDB",
+    "SECRET_KEY":"8d51ab2fe1baef3334280a4f2ea1b710f5e2279f8ba72356b3eb90648fcbcd88"
+}
