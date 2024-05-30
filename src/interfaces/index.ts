@@ -1,2 +1,7 @@
 export * from "./user.interface"
 export * from "./moviemember.interface"
+export * from "./request.interface"
+export * from "./movie.interface"
+export * from "./theatre.interface"
+export * from "./movietiming.interface"
+export * from "./booking.interface"

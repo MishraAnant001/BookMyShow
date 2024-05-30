@@ -1,2 +1,6 @@
 export * from "./user.model"
 export * from "./moviemember.model"
+export * from "./movie.model"
+export * from "./theatre.model"
+export * from "./movietiming.model"
+export * from "./booking.model"

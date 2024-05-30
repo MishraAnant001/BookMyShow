@@ -1,3 +1,7 @@
 export * from "./user.service"
 export * from "./login.service"
 export * from "./moviemember.service"
+export * from "./movie.service"
+export * from "./theatre.service"
+export * from "./movietiming.service"
+export * from "./booking.service"

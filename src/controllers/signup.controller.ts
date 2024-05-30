@@ -8,6 +8,12 @@ export class SignupController{
     async signupUser(req:Request,res:Response){
         try {
             const userdata:IUser=req.body
+            if(userdata.role =="superadmin"){
+                return res.status(ErrorCodes.unauthorized).json({
+                    success:false,
+                    message:"You cannot signup as superadmin"
+                })
+            }
             const response = await service.createUser(userdata)
             res.status(response.statusCode).json(response)
         } catch (error:any) {
